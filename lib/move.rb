@@ -8,9 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(pos)
-  pos = pos.to_i
+  pos = pos.to_i - 1
 end
 
 def move(board, pos, player)
-    board[pos - 1] = player
+    board[pos] = player
 end
