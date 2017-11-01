@@ -11,6 +11,6 @@ def input_to_index(pos)
   pos = pos.to_i - 1
 end
 
-def move(board, pos, player)
+def move(board, pos, player="X")
     board[pos] = player
 end
